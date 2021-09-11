@@ -78,11 +78,11 @@
                     "correct": "1760 konsol PlayStation 3"
                 }
             },
-            "logo": "../assets/technologia_ikona.svg",
-            "backgrounds":{"selected": "../assets/programowanie_selected.png",
+            "logo": "./assets/technologia_ikona.svg",
+            "backgrounds":{"selected": "./assets/programowanie_selected.png",
                            "normal": "./assets/programowanie_normal.png",
                            "dragable" : "./assets/programowanie_dragable.png",
-                           "result": "../assets/programowanie_result.png"
+                           "result": "./assets/programowanie_result.png"
             }
         },
         "kultura":
@@ -165,11 +165,11 @@
                     "correct": "Miś"
                 }
             },
-            "logo": "../assets/kultura_ikona.svg",
-            "backgrounds":{"selected": "../assets/kultura_selected.png",
+            "logo": "./assets/kultura_ikona.svg",
+            "backgrounds":{"selected": "./assets/kultura_selected.png",
                            "normal": "./assets/kultura_normal.png",
                            "dragable" : "./assets/kultura_dragable.png",
-                           "result": "../assets/kultura_result.png"
+                           "result": "./assets/kultura_result.png"
             }
         },
         "motoryzacja":
@@ -252,11 +252,11 @@
                 }
 
             },
-            "logo": "../assets/motoryzacja_ikona.svg",
-            "backgrounds":{"selected": "../assets/kultura_selected.png",
+            "logo": "./assets/motoryzacja_ikona.svg",
+            "backgrounds":{"selected": "./assets/kultura_selected.png",
                            "normal": "./assets/kultura_normal.png",
                            "dragable" : "./assets/kultura_dragable.png",
-                           "result": "../assets/kultura_result.png"
+                           "result": "./assets/kultura_result.png"
             }
         },
         "programowanie":
@@ -337,11 +337,11 @@
                     "correct": "render()"
                 }
             },
-            "logo": "../assets/programowanie_ikona.svg",
-            "backgrounds":{"selected": "../assets/programowanie_selected.png",
+            "logo": "./assets/programowanie_ikona.svg",
+            "backgrounds":{"selected": "./assets/programowanie_selected.png",
                            "normal": "./assets/programowanie_normal.png",
                            "dragable" : "./assets/programowanie_dragable.png",
-                           "result": "../assets/programowanie_result.png"
+                           "result": "./assets/programowanie_result.png"
             }
         },
         "historia":
@@ -422,11 +422,11 @@
                     "correct": "Chińczyków"
                 }
             },
-            "logo": "../assets/historia_ikona.svg",
-            "backgrounds":{"selected": "../assets/historia_selected.png",
+            "logo": "./assets/historia_ikona.svg",
+            "backgrounds":{"selected": "./assets/historia_selected.png",
                            "normal": "./assets/historia_normal.png",
                            "dragable" : "./assets/historia_dragable.png",
-                           "result": "../assets/historia_selected.png"
+                           "result": "./assets/historia_selected.png"
             }
         }
     }
