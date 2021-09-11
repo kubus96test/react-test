@@ -1,0 +1,63 @@
+.header{
+	&__wrap{
+	@include setFlex(column, center, center);
+	height: 32%;
+	width: 100%;
+	color: $c-white;
+	}
+
+	&__title{
+		@include setFlex(row, center, center);
+		position:relative;
+		height: 70%;
+		width: 100%;
+		font-family: 'Monoton', cursive;
+		letter-spacing: 3px;
+		font-size: 6.4rem;
+
+		> img{
+			position:absolute;
+			right:1.5rem;
+			top:1.5rem;
+			width:2.5rem;
+			height: 2.5rem;
+
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__subtitle{
+		@include setFlex(row, center, center);
+		min-height: 30%;
+		width: 100%;
+		background: linear-gradient(90deg, $c-transparent 0%, $c-transparent 10%, $c-grape 50%, $c-transparent 90%, $c-transparent 100%);
+		font-family: 'Lato', cursive;
+		font-size:2.5rem;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+.header{
+
+	&__wrap{
+		height: 20%;
+	}
+	&__title{
+		font-size: 4rem;
+		>img{
+			width: 2rem;
+			height: 2rem;
+			top: 1.4rem;
+		}
+	}
+
+	&__subtitle{
+		font-size: 1.5rem;
+	}
+}
+}
+
