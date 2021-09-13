@@ -8,12 +8,22 @@
 		box-sizing:border-box;
 		background: linear-gradient(45deg, $c-haiti 0%, $c-minsk 100%);
 
+		&:hover{
+			cursor: pointer;
+			background: linear-gradient(45deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%);
+		}
+
 		&--selected{
 			@extend .category__wrap;
 			margin-top:0;
 			background: none;
 			border-style: none;
 			box-shadow: none;
+
+			&:hover{
+				cursor: auto;
+				background: none;
+			}
 		}
 	}
 
@@ -36,15 +46,14 @@
 	}
 }
 
-@media (hover: hover) and (pointer: fine) {
-	.category{
-		&__wrap:hover{
-		cursor: pointer;
-		background: linear-gradient(45deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%);
+@media (hover:hover) and (pointer: none){
+	.category__wrap:hover{
+		cursor: auto;
+		background: linear-gradient(45deg, $c-haiti 0%, $c-minsk 100%);
 	}
-		&--selected:hover{
-			cursor: auto;
-			background: none;
-		}
-}
+
+	.category__wrap--selected:hover{
+		cursor: auto;
+		background: none;
+	}
 }

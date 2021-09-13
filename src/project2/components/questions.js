@@ -18,6 +18,8 @@ const Questions = ({ category, setFinished, movePointsUp, renderHeader }) => {
             content: null
         })
 
+        const [allowClicking,setallowClicking] = useState(true)
+
         const[background,setBackground]=useState(null)
         const loadQuestion = (goodChoose = false) => {
             fetch('./data.json').then(res => res.json()).then(res => {
@@ -46,6 +48,7 @@ const Questions = ({ category, setFinished, movePointsUp, renderHeader }) => {
                     points: goodChoose ? prev.points + 1 : prev.points,
                     type: newQuestion.type
                 }))
+                setallowClicking(true)
             })
         }
 
@@ -56,12 +59,14 @@ const Questions = ({ category, setFinished, movePointsUp, renderHeader }) => {
                         content: answer,
                         correct: true
                     })
+                    setallowClicking(false)
                     setTimeout(() => { loadQuestion(true) }, 3000)
                 } else {
                     setChosenAnswer({
                         content: answer,
                         correct: false
                     })
+                    setallowClicking(false)
                     setTimeout(() => { loadQuestion(false) }, 3000)
                 }
             } else {
@@ -70,6 +75,7 @@ const Questions = ({ category, setFinished, movePointsUp, renderHeader }) => {
                         content: answer,
                         correct: true
                     })
+                    setallowClicking(false)
                     setTimeout(() => {
                         setQuestion(prev => ({ ...prev, points: prev.points + 1 }))
                         setFinished(true)
@@ -80,6 +86,7 @@ const Questions = ({ category, setFinished, movePointsUp, renderHeader }) => {
                         content: answer,
                         correct: false
                     })
+                    setallowClicking(false)
                     setTimeout(() => {
                         setFinished(true)
                         movePointsUp({ got: question.points, max: question.totalQuestions })
@@ -172,7 +179,7 @@ return (
 			?
 			<div className='normal-question__answers-wrap'>
 				{Object.keys(question.answers).map((el)=>
-					(<Answer content={question.answers[el]} chosenAnswer={{content:chosenAnswer.content, correct:chosenAnswer.correct}} letter={el} checkNormalQuestion={checkNormalQuestion} key={el}/>)
+					(<Answer content={question.answers[el]} chosenAnswer={{content:chosenAnswer.content, correct:chosenAnswer.correct}} letter={el} checkNormalQuestion={checkNormalQuestion} key={el} allowClicking={allowClicking}/>)
 				)}
 			</div>
 			:
@@ -181,7 +188,7 @@ return (
 					<div className='dragable-question__dropables-wrap'>
 						{question.examples.map((value,index)=>{
 							return(
-							<Droppable droppableId={value} key={value} direction="horizontal">
+							<Droppable droppableId={value} key={value}>
 								{provided=>{
 									let dragAnswerStyle='dragable-question__dropable'
 									let doneExamples=0
@@ -233,14 +240,14 @@ return (
 )
 }
 
-        const Answer = ({ content, chosenAnswer=false, letter, checkNormalQuestion, }) => {
+        const Answer = ({ content, chosenAnswer=false, letter, checkNormalQuestion, allowClicking}) => {
             let answerStyle = 'normal-question__answer'
             if (chosenAnswer.content==content) {
                 if (chosenAnswer.correct) {answerStyle='normal-question__answer--right'} else {answerStyle='normal-question__answer--wrong'}
             }
         	
             return (
-                <div className={answerStyle} onClick={()=>{checkNormalQuestion(content)}}>
+                <div className={answerStyle} onClick={()=>{if(allowClicking) {checkNormalQuestion(content)}}}>
 					{letter} {content}
 				</div>
             )
