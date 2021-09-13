@@ -351,7 +351,7 @@
                 "q1":
                 {
                     "type":"normal",
-                    "question": "Co przyczyniło się do klęski armii Napoleona Bonapartego w 1812 roku",
+                    "question": "Co przyczyniło się do klęski armii Napoleona Bonaparte w 1812 roku",
                     "answers": ["Plaga szarańczy", "Powódź tysiąclecia", "Sroga zima", "Niezwykle upalne lato", "Burza gradowa tysiąclecia"],
                     "correct": "Sroga zima"
                 },
@@ -410,7 +410,7 @@
                 "q9":
                 {
                     "type":"normal",
-                    "question": "Czym była operacja Barbarossa?",
+                    "question": "Czym była operacja \"Barbarossa\"?",
                     "answers": ["Kryptonim ataku ZSRR na III Rzeszę", "Kryptonim ataku III Rzeszy na ZSRR", "Kryptonim ataku III Rzeszy na Polskę", "Kryptonim ataku aliantów na III Rzeszę", "Kryptonim ataku ZSRR na Polskę"],
                     "correct": "Kryptonim ataku III Rzeszy na ZSRR"
                 },
