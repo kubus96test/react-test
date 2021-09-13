@@ -47,7 +47,7 @@ const Game = ()=>{
     		else{
     			toRender=<Questions category={category.name} setFinished={setFinished} movePointsUp={setPoints} renderHeader={(questionType,questionNumber,questionTotal)=>(
     				<Header restartGame={()=>{setCategory({id:null,name:null,started:null}); setPoints({got:0, max:0})}}>
-    					{questionType=='normal' ? <span class='question__subtitle'>Wybierz prawidłową odpowiedź</span> : <span class='question__subtitle'>Przeciągnij prawidłową odpowiedź w puste miejsce</span>}
+    					{questionType=='normal' ? <span className='question__subtitle'>Wybierz prawidłową odpowiedź</span> : <span className='question__subtitle'>Przeciągnij prawidłową odpowiedź w puste miejsce</span>}
 						<div className='question__number-wrap'>
 						<div className='question__number'>{questionNumber}/{questionTotal}</div>
 						</div>

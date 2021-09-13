@@ -14,8 +14,8 @@ const Selected = ({children, category, setCategory, renderHeader }) => {
     return (
         <div className='selected__wrapper' style={{backgroundImage: `url("${background}")`, backgroundSize: "cover"}}>
 			{renderHeader()}
-			<div class='selected__content'>
-					<div class='selected__item'>
+			<div className='selected__content'>
+					<div className='selected__item'>
 				{children}
 				</div>
 				<button className='forward__wrap' onClick={()=>{setCategory(prev=>({...prev, started:true}))}}>
