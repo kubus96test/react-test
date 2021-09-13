@@ -8,7 +8,7 @@
                 "q1":
                 {
                     "type":"normal",
-                    "question": "W którym roku firma apple wprowadziła do sprzedaży pierwszy komputer?",
+                    "question": "W którym roku firma Apple wprowadziła do sprzedaży pierwszy komputer?",
                     "answers": ["1972", "1974", "1976", "1984", "1990"],
                     "correct":"1976"
                 },
@@ -116,7 +116,7 @@
                 "q4":
                 {
                     "type":"normal",
-                    "question": "Zanim kultowa szwedzka grupa wypuściła kultową płytę, próbowała swoich sił w Eurowizji. ABBA bezapelacyjnie wygrała konkurs. Którą piosenką?",
+                    "question": "Zanim popularna szwedzka grupa wypuściła kultową płytę, próbowała swoich sił w Eurowizji. ABBA bezapelacyjnie wygrała konkurs. Którą piosenką?",
                     "answers": ["The winner takes it all", "Voulez-Vous", "Waterloo", "Dancing queen", "Gimme! Gimme! Gimme!"],
                     "correct": "Waterloo"
                 },
@@ -203,13 +203,13 @@
                 {
                     "type":"normal",
                     "question": "Ściąganie na boki podczas jazdy, dźwięki szurania i pisk, to objawy:",
-                    "answers": ["Zużytych klocków hamulcowych", "Zużytego sprzęgła", "Zepsutej pompy paliwowa", "Braku olej silnikowego", "Awarii katalizatora"],
+                    "answers": ["Zużytych klocków hamulcowych", "Zużytego sprzęgła", "Zepsutej pompy paliwowej", "Braku oleju silnikowego", "Awarii katalizatora"],
                     "correct": "Zużytych klocków hamulcowych"
                 },
                 "q5":
                 {
                     "type":"DragNDrop",
-                    "question": "Połącz część samochodu z funkcją jaką spełnia: ",
+                    "question": "Połącz część samochodu z funkcją jaką spełnia",
                     "examples":["Służy do ochorny silnika przed zanieczyszczeniami", "Jeden z elementów zawieszenia", "Łączy wał napędowy i wał napędzany", "Redukuje szkodliwe związki w spalinach"],
                     "answers": ["Sprzęgło","Filtr powietrza", "Wahacz", "Katalizator"],
                     "correct": ["Filtr powietrza","Wahacz","Sprzęgło","Katalizator"]
@@ -231,7 +231,7 @@
                 "q8":
                 {
                     "type":"DragNDrop",
-                    "question": "Połącz część samochodu z funkcją jaką spełnia: ",
+                    "question": "Dopasuj datę do wydarzenia",
                     "examples":["Przekroczenie samochodem bariery 100km/h","Mikołaj Cugnot konstruuje pierwszy pojazd parowy", "Pierwszy samochód trafia do seryjnej produkcji", "Pierwszy samochód zasilany silnikiem benzynowym"],
                     "answers": ["1769","1885","1899","1901"],
                     "correct": ["1899","1769","1901","1885"]
@@ -239,7 +239,7 @@
                 "q9":
                 {
                     "type":"normal",
-                    "question": "Polska firma mająca wyprodukować pierwszy polski samochód elektryczny, to:",
+                    "question": "Jak nazywa się Polska firma, mająca wyprodukować pierwszy polski samochód elektryczny?",
                     "answers": ["Carpatia", "Izera", "Alpina", "Tatra", "Fiat"],
                     "correct": "Izera"
                 },
@@ -282,7 +282,7 @@
                 "q3":
                 {
                     "type":"normal",
-                    "question": "Który Tag nie istnieje w HTML",
+                    "question": "Który Tag nie istnieje w HTML?",
                     "answers": ["<div>", "<section>", "<body>", "<begin>", "<fieldset>"],
                     "correct": "<begin>"
                 },
@@ -325,7 +325,7 @@
                 "q9":
                 {
                     "type":"normal",
-                    "question": "Który z języków uznawany jest przykładem języka \"frontendowego\"",
+                    "question": "Który z języków programowania jest przykładem języka \"frontendowego\"?",
                     "answers": ["C++", "JavaScript", "R", "Python", "PHP"],
                     "correct": "JavaScript"
                 },
@@ -351,7 +351,7 @@
                 "q1":
                 {
                     "type":"normal",
-                    "question": "Co przyczyniło się do klęski armii Napoleona Bonaparte w 1812 roku",
+                    "question": "Co przyczyniło się do klęski armii Napoleona Bonaparte w 1812 roku?",
                     "answers": ["Plaga szarańczy", "Powódź tysiąclecia", "Sroga zima", "Niezwykle upalne lato", "Burza gradowa tysiąclecia"],
                     "correct": "Sroga zima"
                 },
@@ -366,7 +366,7 @@
                 "q3":
                 {
                     "type":"normal",
-                    "question": "W którym roku powstało pańśtwo Izrael",
+                    "question": "W którym roku powstało państwo Izrael?",
                     "answers": ["1250", "1834", "1948", "1 n.e.", "1945"],
                     "correct": "1948"
                 },
