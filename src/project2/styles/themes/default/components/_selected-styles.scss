@@ -1,0 +1,66 @@
+.selected{
+	&__wrapper{
+		@include setFlex(column,space-between,center);
+		width:100vw;
+		height: 100vh;
+	}
+
+	&__content{
+		@include setFlex(column, space-around,center);
+		height:68%;
+		width:100%;
+	}
+
+	&__item{
+		@extend .intro__item;
+	}
+}
+
+.forward{
+		&__wrap{
+			@include setFlex(row, center, center);
+			width: 20vw;
+			height: 10vh;
+			margin: 2rem;
+			background: linear-gradient(45deg, $c-haiti 0%, $c-minsk 100%);
+			outline: none;
+			border: 1px solid lighten($c-minsk, 10);
+			box-shadow: 1px 1px 5px lighten($c-minsk, 50);
+			@include borderRadius(10px);
+			
+			&:hover{
+				cursor: pointer;
+				transform: scale(1.1);
+				background: linear-gradient(90deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%)
+			}
+			
+			img{
+				width: 4rem;
+				height: 4rem;
+			}
+		}
+
+		&__text{
+			@include setFlex(row, center, center);
+			margin: 1rem;
+			color: white;
+			font-size: 1.5rem;
+			letter-spacing: 1px;
+		}
+}
+
+@media only screen and (max-width: 768px){
+	.selected{
+		&__item{
+			min-width: 13rem;
+			min-height: 13rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	.forward{
+		&__wrap{
+			min-width: 16rem;
+		}
+	}
+}

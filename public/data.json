@@ -1,0 +1,433 @@
+{
+    "categories":
+    {
+        "technologia":
+        {
+            "questions":
+            {
+                "q1":
+                {
+                    "type":"normal",
+                    "question": "W którym roku firma apple wprowadziła do sprzedaży pierwszy komputer?",
+                    "answers": ["1972", "1974", "1976", "1984", "1990"],
+                    "correct":"1976"
+                },
+                "q2":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz w pary model telefonu z marką",
+                    "examples": ["Motorola", "Nokia", "Siemens", "Mitsubishi"],
+                    "answers": ["1011", "SL-45","V3", "M900"],
+                    "correct":["V3","1011","SL-45","M900"]
+                },
+                "q3":
+                {   "type":"normal",
+                    "question": "Skąd wzięła się nazwa mobilnego systemu operacyjnego \"Android\"?",
+                    "answers": ["Od pseudonimu ojca Androida - Andy'iego Rubina", "To był losowy wybór", "Od zamiłowania Larry'ego Page'a do filmu Łowca Androidów", "Została wybrana losowo na zebraniu zespołu zajmującego się marketingiem", " Przyśniła się Sergey'owi Brinowi"],
+                    "correct":"Od pseudonimu ojca Androida - Andy'iego Rubina"
+                },
+                "q4":
+                {
+                    "type":"normal",
+                    "question": "Jak nazywa się pierwszy przenośny odtwarzacz plików mp3?",
+                    "answers": ["Apple iPod", "Creative NOMAD Jukebox", "SaeHan/Eiger MPMan", "Diamond Rio", "Creative Zen"],
+                    "correct": "SaeHan/Eiger MPMan"
+                },
+                "q5":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz założyciela z nazwą firmy",
+                    "examples":["Bill Gates","Steve Jobs", "Larry Page", "Mark Zuckerberg"],
+                    "answers": ["Facebook", "Google", "Microsoft", "Apple"],
+                    "correct": ["Microsoft","Apple","Google","Facebook"]
+                },
+                "q6":
+                {
+                    "type":"normal",
+                    "question": "W którym roku powstał pierwszy zestaw ikon emoji?",
+                    "answers": ["1998", "1999", "2000", "2001", "2002"],
+                    "correct": "1999"
+                },
+                "q7":
+                {
+                    "type":"normal",
+                    "question": "Jak nazywa się pierwszy smartwatch przeznaczony dla ludzi niewidomych?",
+                    "answers": ["Blindwatch", "Dot Watch", "No watch", "Brailly", "Quantingo"],
+                    "correct": "Dot Watch"
+                },
+                "q8":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj marki do krajów ich pochodzenia",
+                    "examples":["Rosja/Holandia","Japonia","Korea pd.","Chiny"],
+                    "answers": ["Xiaomi","LG","Nintendo","Yandex"],
+                    "correct": ["Yandex","Nintendo","LG","Xiaomi"]
+                },
+                "q9":
+                {
+                    "type":"normal",
+                    "question": "Do czego odnosi się nazwa firmy Xiaomi?",
+                    "answers": ["Umysł", "Pojedyncze ziarno ryżu", "Naród", "Wolność", "Wspaniałość"],
+                    "correct": "Pojedyncze ziarno ryżu"
+                },
+                "q10":
+                {
+                    "type":"normal",
+                    "question": "Co służyło do obliczeń w superkomputerze zbudowanym w 2010 r. dla amerykańskiego departamentu obrony?",
+                    "answers": ["1760 konsol PlayStation 3", "500 procesorów Intel Xeon", "1900 używanych, uszkodzonych laptopów", "934 procesory AMD Epyc", "1500 procesorów Intel Core i7"],
+                    "correct": "1760 konsol PlayStation 3"
+                }
+            },
+            "logo": "./assets/technologia_ikona.svg",
+            "backgrounds":{"selected": "./assets/programowanie_selected.png",
+                           "normal": "./assets/programowanie_normal.png",
+                           "dragable" : "./assets/programowanie_dragable.png",
+                           "result": "./assets/programowanie_result.png"
+            }
+        },
+        "kultura":
+        {
+            "questions":
+            {
+                "q1":
+                {
+                    "type":"normal",
+                    "question": " Co wylała Annuszka w powieści \"Mistrz i Małgorzata\", powodując tym samym poślizgnięcie się i śmiertelny wypadek Berlioza?",
+                    "answers": ["Wodę", "Wino", "Olej", "Piwo", "Smołę"],
+                    "correct": "Olej"
+                },
+                "q2":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz reżysera z jego dziełem",
+                    "examples":["Roman Polański","Quentin Tarantino", "Steven Spielberg", "David Fincher"],
+                    "answers": ["Fight club", "Dziecko Rosemary", "Od zmierzchu do świtu", "Lista Schindlera"],
+                    "correct": ["Dziecko Rosemary", "Od zmierzchu do świtu", "Lista Schindlera", "Fight club"]
+                },
+
+                "q3":
+                {
+                    "type":"normal",
+                    "question": "\"Zbawiciel świata\" to jeden z najdrożej sprzedanych obrazów w historii. W 2017 r. poszedł pod młotek i zlicytowano go za 450 mln dol. Kto jest jego twórcą?",
+                    "answers": ["Michał Anioł", "Leonardo da Vinci", "Sandro Boticelli", "Bernardo Belotto", "Pablo Picasso"],
+                    "correct": "Leonardo da Vinci"
+                },
+
+                "q4":
+                {
+                    "type":"normal",
+                    "question": "Zanim kultowa szwedzka grupa wypuściła kultową płytę, próbowała swoich sił w Eurowizji. ABBA bezapelacyjnie wygrała konkurs. Którą piosenką?",
+                    "answers": ["The winner takes it all", "Voulez-Vous", "Waterloo", "Dancing queen", "Gimme! Gimme! Gimme!"],
+                    "correct": "Waterloo"
+                },
+                "q5":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz muzyków z krajem ich pochodzenia",
+                    "examples":["Rihanna","Wyclef Jean", "Israel \"Iz\"", "Shakira"],
+                    "answers": ["Kolumbia", "Barbados", "Hawaje (USA)", "Haiti"],
+                    "correct": ["Barbados","Haiti","Hawaje (USA)", "Kolumbia"]
+                },
+                "q6":
+                {
+                    "type":"normal",
+                    "question": "Najpopularniejszym polonezem tańczonym na polskich studniówkach jest Polonez z \"Pana Tadeusza\" w reżyserii Andrzej Wajdy. Kto go skomponował?",
+                    "answers": ["Wojciech Kilar", "Michał Kleofas Ogiński", "Krzysztof Penderecki", "Fryderyk Chopin", "Mieczysław Karłowicz"],
+                    "correct": "Wojciech Kilar"
+                },
+                "q7":
+                {
+                    "type":"normal",
+                    "question": "Który z popularnych aktorów ukończył Technikum Mechaniczno-Elektryczne i nie ma dyplomu uczelni teatralnej bądź filmowej?",
+                    "answers": ["Paweł Wawrzecki", "Tomasz Karolak", "Cezary Pazura", "Zbigniew Buczkowski", "Borys Szyc"],
+                    "correct": "Zbigniew Buczkowski"
+                },
+                "q8":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz znaną osobę z nazwą jej zawodu",
+                    "examples":["Ewa Juszkiewicz","Szymon Bobrowski", "Władysław Komendarek", "Paweł Althamer"],
+                    "answers": ["Malarz", "Aktor", "Kompozytor", "Rzeźbiarz"],
+                    "correct": ["Malarz","Aktor","Kompozytor","Rzeźbiarz"]
+                },
+                "q9":
+                {
+                    "type":"normal",
+                    "question": "Polskim serialem z największą ilością wyemitowanych odcinków jest:",
+                    "answers": ["Plebania", "Klan", "M jak miłość", "Złotopolscy", "Daleko od noszy"],
+                    "correct": "Klan"
+                },
+                "q10":
+                {
+                    "type":"normal",
+                    "question": "\"Z twarzy podobny zupełnie do nikogo\". Z jakiego filmu pochodzi ten cytat?",
+                    "answers": ["Brunet wieczorową porą", "Miś", "Zmiennicy", "Dzień świra", "Chłopaki nie płaczą"],
+                    "correct": "Miś"
+                }
+            },
+            "logo": "./assets/kultura_ikona.svg",
+            "backgrounds":{"selected": "./assets/kultura_selected.png",
+                           "normal": "./assets/kultura_normal.png",
+                           "dragable": "./assets/kultura_dragable.png",
+                           "result": "./assets/kultura_result.png"
+            }
+        },
+        "motoryzacja":
+        {
+            "questions":
+            {
+
+                "q1":
+                {
+                    "type":"normal",
+                    "question": "Nazwa samochodów \"Mercedes\" wzięła się od:",
+                    "answers": ["Imienia córki Emila Jellinka", "Imienia teściowej Gotlieba Daimlera", "Imienia żony Karla Benza", "Imienia córki Karla Benza", "Imienia córki Gotlieba Daimlera"],
+                    "correct": "Imienia córki Emila Jellinka"
+                },
+                "q2":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj markę samochodu i kraj jej pochodzenia",
+                    "examples":["Daewoo","Zamyad", "Mobius", "UAZ"],
+                    "answers": ["Iran", "Korea pd.", "Rosja", "Kenia"],
+                    "correct": ["Korea pd.","Iran","Kenia","Rosja"]
+                },
+                "q3":
+                {
+                    "type":"normal",
+                    "question": "Najszybszy seryjnie produkowany samochód, to:",
+                    "answers": ["Bugatti Veyron", "Mercedes McLaren", "SSC Tuatara", "Bugatti Chiron", "Pagani Zonda"],
+                    "correct": "SSC Tuatara"
+                },
+                "q4":
+                {
+                    "type":"normal",
+                    "question": "Ściąganie na boki podczas jazdy, dźwięki szurania i pisk, to objawy:",
+                    "answers": ["Zużytych klocków hamulcowych", "Zużytego sprzęgła", "Zepsutej pompy paliwowa", "Braku olej silnikowego", "Awarii katalizatora"],
+                    "correct": "Zużytych klocków hamulcowych"
+                },
+                "q5":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz część samochodu z funkcją jaką spełnia: ",
+                    "examples":["Służy do ochorny silnika przed zanieczyszczeniami", "Jeden z elementów zawieszenia", "Łączy wał napędowy i wał napędzany", "Redukuje szkodliwe związki w spalinach"],
+                    "answers": ["Sprzęgło","Filtr powietrza", "Wahacz", "Katalizator"],
+                    "correct": ["Filtr powietrza","Wahacz","Sprzęgło","Katalizator"]
+                },
+                "q6":
+                {
+                    "type":"normal",
+                    "question": "Pierwszym polskim samochodem był:",
+                    "answers": ["Fiat 126p", "Fiat 125p", "Syrena 100", "CWS T-1", "Polonez Caro"],
+                    "correct": "CWS T-1"
+                },
+                "q7":
+                {
+                    "type":"normal",
+                    "question": "Samochód używany w wyścigach na krótkich dystanasach, generujący moc nawet 8000KM, czasem mający zamontowany silnik odrzutowy, to:",
+                    "answers": ["Monster truck", "Bolid F1", "Monster car", "Dragster", "Samochód WRC"],
+                    "correct": "Dragster"
+                },
+                "q8":
+                {
+                    "type":"DragNDrop",
+                    "question": "Połącz część samochodu z funkcją jaką spełnia: ",
+                    "examples":["Przekroczenie samochodem bariery 100km/h","Mikołaj Cugnot konstruuje pierwszy pojazd parowy", "Pierwszy samochód trafia do seryjnej produkcji", "Pierwszy samochód zasilany silnikiem benzynowym"],
+                    "answers": ["1769","1885","1899","1901"],
+                    "correct": ["1899","1769","1901","1885"]
+                },
+                "q9":
+                {
+                    "type":"normal",
+                    "question": "Polska firma mająca wyprodukować pierwszy polski samochód elektryczny, to:",
+                    "answers": ["Carpatia", "Izera", "Alpina", "Tatra", "Fiat"],
+                    "correct": "Izera"
+                },
+                "q10":
+                {
+                   "type":"normal",
+                    "question": "Marką produkującą obecnie najtańszy samochód na świecie jest:",
+                    "answers": ["Dacia", "Łada", "Tata", "Wolswagen", "Kia"],
+                    "correct": "Tata"
+                }
+
+            },
+            "logo": "./assets/motoryzacja_ikona.svg",
+            "backgrounds":{"selected": "./assets/kultura_selected.png",
+                           "normal": "./assets/kultura_normal.png",
+                           "dragable" : "./assets/kultura_dragable.png",
+                           "result": "./assets/kultura_result.png"
+            }
+        },
+        "programowanie":
+        {
+            "questions":
+            {
+
+                "q1":
+                {
+                    "type":"normal",
+                    "question": "Pierwszym językiem programowania w historii był:",
+                    "answers": ["Pascal", "C#", "Basic", "Fortran", "HTML"],
+                    "correct": "Fortran"
+                },
+                "q2":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj język programowanie do jego opisu",
+                    "examples":["Służy głównie do obliczeń statystycznych i wizualizacji wyników"," Hipertekstowy język znaczników", "<?echo(\"hello\")?> to przykładowa instrukcja napisana w tym języku", "Język służący do opisu formy prezentacji stron WWW"],
+                    "answers": ["PHP","HTML","R","CSS"],
+                    "correct": ["R","HTML","PHP","CSS"]
+                },
+                "q3":
+                {
+                    "type":"normal",
+                    "question": "Który Tag nie istnieje w HTML",
+                    "answers": ["<div>", "<section>", "<body>", "<begin>", "<fieldset>"],
+                    "correct": "<begin>"
+                },
+                "q4":
+                {
+                    "type":"normal",
+                    "question": "React to biblioteka języka JavaScript stworzona w 2013 roku przez:",
+                    "answers": ["Facebook", "Microsoft", "Google", "Adobe", "Apple"],
+                    "correct": "Facebook"
+                },
+                "q5":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj framework do języka programowanie",
+                    "examples":["JavaScript","PHP", "C++", "Typescript"],
+                    "answers": ["Symfony","Gatsby","Angular","Treefrog"],
+                    "correct": ["Gatsby","Symfony","Treefrog","Angular"]
+                },
+                "q6":
+                {
+                    "type":"normal",
+                    "question": "Za pomocą której metody możemy w JavaScript zmienić kontekst wywołania funkcji?",
+                    "answers": [".open()", ".call()", ".exp()", ".prompt()", ".pow()"],
+                    "correct": ".call()"
+                },
+                "q7":
+                {
+                    "type":"normal",
+                    "question": "Co się stanie po wykonaniu kodu: <p>Przykładowy tekst</p>",
+                    "answers": ["Powstanie akapit", "powstanie lista", "powstanie nowa funkcja", "Nic się nie stanie", "Powstanie element inlinowy \"span\""],
+                    "correct": "Powstanie akapit"
+                },
+                "q8":
+                {
+                    "type":"normal",
+                    "question": "Tekst między którymi znacznikami HTML nie będzie widoczny na stronie?",
+                    "answers": ["<div> </div>", "<head> </head>", "<body> </body>", "<article> </article>", "<footer> </footer>"],
+                    "correct": "<head> </head>"
+                },
+                "q9":
+                {
+                    "type":"normal",
+                    "question": "Który z języków uznawany jest przykładem języka \"frontendowego\"",
+                    "answers": ["C++", "JavaScript", "R", "Python", "PHP"],
+                    "correct": "JavaScript"
+                },
+                "q10":
+                {
+                    "type":"normal",
+                    "question": "Która metoda jest jedyną wymaganą w komponencie klasowym w React?",
+                    "answers": ["render()", "constructor()", "setstate()", "create()", "querySelector()"],
+                    "correct": "render()"
+                }
+            },
+            "logo": "./assets/programowanie_ikona.svg",
+            "backgrounds":{"selected": "./assets/programowanie_selected.png",
+                           "normal": "./assets/programowanie_normal.png",
+                           "dragable" : "./assets/programowanie_dragable.png",
+                           "result": "./assets/programowanie_result.png"
+            }
+        },
+        "historia":
+        {
+            "questions":
+            {
+                "q1":
+                {
+                    "type":"normal",
+                    "question": "Co przyczyniło się do klęski armii Napoleona Bonapartego w 1812 roku",
+                    "answers": ["Plaga szarańczy", "Powódź tysiąclecia", "Sroga zima", "Niezwykle upalne lato", "Burza gradowa tysiąclecia"],
+                    "correct": "Sroga zima"
+                },
+                "q2":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj bitwę do daty",
+                    "examples":["972","1454", "1620", "1920"],
+                    "answers": ["Bitwa pod Cecorą","Bitwa Warszawska","Bitwa pod Cedynią","Bitwa pod Chojnicami"],
+                    "correct": ["Bitwa pod Cedynią","Bitwa pod Chojnicami","Bitwa pod Cecorą","Bitwa Warszawska"]
+                },
+                "q3":
+                {
+                    "type":"normal",
+                    "question": "W którym roku powstało pańśtwo Izrael",
+                    "answers": ["1250", "1834", "1948", "1 n.e.", "1945"],
+                    "correct": "1948"
+                },
+                "q4":
+                {
+                    "type":"normal",
+                    "question": "Czym był Wilczy Szaniec?",
+                    "answers": ["Kwaterą główną Hitlera pod Gierłożą", "To inna nazwa Monte Cassino", "Jednym z głównych punktów oporu w czasie bitwy na Łuku Kurskim", "Działem uzywanym w czasie I Wojny Światowej", "Nazwą jednego z więzień CIA w Polsce"],
+                    "correct": "Kwaterą główną Hitlera pod Gierłożą"
+                },
+                "q5":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj wynalazcę do odkrycia, którego dokonał",
+                    "examples":["Dynamit","Telefon", "Żarówka", "Lodówka"],
+                    "answers": ["Thomas Edison","Alexander Graham Bell","Jackob Perkins","Alfred Nobel"],
+                    "correct": ["Alfred Nobel","Alexander Graham Bell","Thomas Edison","Jackob Perkins"]
+                },
+                "q6":
+                {
+                    "type":"normal",
+                    "question": "Który król stracił głowę w wyniku Wielkiej Rewolucji Francuskiej?",
+                    "answers": ["\"Król słońce\"", "Ludwik XVI", "Ludwik XVIII", "Ludwik XIV", "Karol IX"],
+                    "correct": "Ludwik XVI"
+                },
+                "q7":
+                {
+                    "type":"normal",
+                    "question": "Które państwo prowadziło wielowiekową politykę izolacji?",
+                    "answers": ["Japonia", "USA", "ZSRR", "Korea Północna", "Wietnam"],
+                    "correct": "Japonia"
+                },
+                "q8":
+                {
+                    "type":"DragNDrop",
+                    "question": "Dopasuj rok uzyskania niepodległości do kraju",
+                    "examples":["Norwegia","Namibia","Czarnogóra","Nigeria"],
+                    "answers": ["2006","1990", "1814", "1960"],
+                    "correct": ["1814","1990", "2006", "1960"]
+                },
+                "q9":
+                {
+                    "type":"normal",
+                    "question": "Czym była operacja Barbarossa?",
+                    "answers": ["Kryptonim ataku ZSRR na III Rzeszę", "Kryptonim ataku III Rzeszy na ZSRR", "Kryptonim ataku III Rzeszy na Polskę", "Kryptonim ataku aliantów na III Rzeszę", "Kryptonim ataku ZSRR na Polskę"],
+                    "correct": "Kryptonim ataku III Rzeszy na ZSRR"
+                },
+                "q10":
+                {
+                    "type":"normal",
+                    "question": "Jakiego ludu nie podbił Aleksander Wielki?",
+                    "answers": ["Chińczyków", "Egipcjan", "Baktryjczyków", "Persów", "Fenicjan"],
+                    "correct": "Chińczyków"
+                }
+            },
+            "logo": "./assets/historia_ikona.svg",
+            "backgrounds":{"selected": "./assets/historia_selected.png",
+                           "normal": "./assets/historia_normal.png",
+                           "dragable" : "./assets/historia_dragable.png",
+                           "result": "./assets/historia_selected.png"
+            }
+        }
+    }
+}
