@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.a2060350.chunk.css",
+    "main.css": "/react-test/static/css/main.9442bf0a.chunk.css",
     "main.js": "/react-test/static/js/main.5634e1eb.chunk.js",
     "main.js.map": "/react-test/static/js/main.5634e1eb.chunk.js.map",
     "runtime-main.js": "/react-test/static/js/runtime-main.463d76c8.js",
@@ -10,14 +10,14 @@
     "static/js/3.bccb29eb.chunk.js": "/react-test/static/js/3.bccb29eb.chunk.js",
     "static/js/3.bccb29eb.chunk.js.map": "/react-test/static/js/3.bccb29eb.chunk.js.map",
     "index.html": "/react-test/index.html",
-    "static/css/main.a2060350.chunk.css.map": "/react-test/static/css/main.a2060350.chunk.css.map",
+    "static/css/main.9442bf0a.chunk.css.map": "/react-test/static/css/main.9442bf0a.chunk.css.map",
     "static/js/2.5043c388.chunk.js.LICENSE.txt": "/react-test/static/js/2.5043c388.chunk.js.LICENSE.txt",
     "static/media/theme.scss": "/react-test/static/media/pole_pytania.14ce0cf8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.463d76c8.js",
     "static/js/2.5043c388.chunk.js",
-    "static/css/main.a2060350.chunk.css",
+    "static/css/main.9442bf0a.chunk.css",
     "static/js/main.5634e1eb.chunk.js"
   ]
 }
