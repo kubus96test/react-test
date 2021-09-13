@@ -79,10 +79,10 @@
                 }
             },
             "logo": "./assets/technologia_ikona.svg",
-            "backgrounds":{"selected": "./assets/programowanie_selected.png",
-                           "normal": "./assets/programowanie_normal.png",
-                           "dragable" : "./assets/programowanie_dragable.png",
-                           "result": "./assets/programowanie_result.png"
+            "backgrounds":{"selected": "./assets/programowanie_selected.webp",
+                           "normal": "./assets/programowanie_normal.webp",
+                           "dragable" : "./assets/programowanie_dragable.webp",
+                           "result": "./assets/programowanie_result.webp"
             }
         },
         "kultura":
@@ -166,10 +166,10 @@
                 }
             },
             "logo": "./assets/kultura_ikona.svg",
-            "backgrounds":{"selected": "./assets/kultura_selected.png",
-                           "normal": "./assets/kultura_normal.png",
-                           "dragable" : "./assets/kultura_dragable.png",
-                           "result": "./assets/kultura_result.png"
+            "backgrounds":{"selected": "./assets/kultura_selected.webp",
+                           "normal": "./assets/kultura_normal.webp",
+                           "dragable" : "./assets/kultura_dragable.webp",
+                           "result": "./assets/kultura_result.webp"
             }
         },
         "motoryzacja":
@@ -253,10 +253,10 @@
 
             },
             "logo": "./assets/motoryzacja_ikona.svg",
-            "backgrounds":{"selected": "./assets/kultura_selected.png",
-                           "normal": "./assets/kultura_normal.png",
-                           "dragable" : "./assets/kultura_dragable.png",
-                           "result": "./assets/kultura_result.png"
+            "backgrounds":{"selected": "./assets/kultura_selected.webp",
+                           "normal": "./assets/kultura_normal.webp",
+                           "dragable" : "./assets/kultura_dragable.webp",
+                           "result": "./assets/kultura_result.webp"
             }
         },
         "programowanie":
@@ -338,10 +338,10 @@
                 }
             },
             "logo": "./assets/programowanie_ikona.svg",
-            "backgrounds":{"selected": "./assets/programowanie_selected.png",
-                           "normal": "./assets/programowanie_normal.png",
-                           "dragable" : "./assets/programowanie_dragable.png",
-                           "result": "./assets/programowanie_result.png"
+            "backgrounds":{"selected": "./assets/programowanie_selected.webp",
+                           "normal": "./assets/programowanie_normal.webp",
+                           "dragable" : "./assets/programowanie_dragable.webp",
+                           "result": "./assets/programowanie_result.webp"
             }
         },
         "historia":
@@ -423,10 +423,10 @@
                 }
             },
             "logo": "./assets/historia_ikona.svg",
-            "backgrounds":{"selected": "./assets/historia_selected.png",
-                           "normal": "./assets/historia_normal.png",
-                           "dragable" : "./assets/historia_dragable.png",
-                           "result": "./assets/historia_selected.png"
+            "backgrounds":{"selected": "./assets/historia_selected.webp",
+                           "normal": "./assets/historia_normal.webp",
+                           "dragable" : "./assets/historia_dragable.webp",
+                           "result": "./assets/historia_selected.webp"
             }
         }
     }

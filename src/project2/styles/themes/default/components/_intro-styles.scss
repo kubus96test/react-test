@@ -1,7 +1,7 @@
 .intro{
 	&__wrapper{
 	@include setFlex(column,flex-start,center);
-	background: url('../../../../assets/intro.png');
+	background: url('../../../../assets/intro.webp');
 	background-size: cover;
 	width: 100vw;
 	height: 100vh;
