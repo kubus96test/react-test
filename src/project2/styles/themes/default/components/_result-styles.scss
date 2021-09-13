@@ -117,10 +117,6 @@
 		margin:1rem 0.5rem 1rem 0;
 		font-size: 1rem;
 		color: white;
-
-		&:hover{
-			transform: scale(1.1);
-		}
 	}
 }
 
@@ -131,6 +127,12 @@
 
 	&__text{
 		@extend .forward__text;
+	}
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.result__item:hover{
+		transform: scale(1.1);
 	}
 }
 

@@ -28,12 +28,6 @@
 			box-shadow: 1px 1px 5px lighten($c-minsk, 50);
 			@include borderRadius(10px);
 			
-			&:hover{
-				cursor: pointer;
-				transform: scale(1.1);
-				background: linear-gradient(90deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%)
-			}
-			
 			img{
 				width: 4rem;
 				height: 4rem;
@@ -47,6 +41,14 @@
 			font-size: 1.5rem;
 			letter-spacing: 1px;
 		}
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .forward__wrap:hover{
+  		cursor: pointer;
+		transform: scale(1.1);
+		background: linear-gradient(90deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%);
+  }
 }
 
 @media only screen and (max-width: 768px){
