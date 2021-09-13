@@ -27,8 +27,6 @@
 		@include setFlex(column,space-between,center);
 		width: 37%;
 		height: 100%;
-		// border: 1px solid black;
-		// box-sizing: border-box;
 	}
 
 	&__left-top{
@@ -53,8 +51,6 @@
 		@include setFlex(column,space-between,center);
 		width: 26%;
 		height: 100%;
-		// border: 1px solid black;
-		// box-sizing: border-box;
 	}
 
 	&__middle-top{	
@@ -103,8 +99,6 @@
 		@include setFlex(column,center,flex-end);
 		width: 37%;
 		height: 100%;
-		// border: 1px solid black;
-		// box-sizing: border-box;
 	}
 
 	&__other{
@@ -115,8 +109,6 @@
 		font-size:1.5rem;
 		text-align: center;
 		padding-left: 4.5rem;
-		// border: 1px solid black;
-		// box-sizing: border-box;
 	}
 
 	&__item{
@@ -170,15 +162,15 @@
 
 		&__middle-top{
 			height: 25%
-	}
+		}
 
-	&__middle-middle{
-		height: 25%
-	}
+		&__middle-middle{
+			height: 25%
+		}
 
-	&__middle-bottom{
-		height: 25%
-	}
+		&__middle-bottom{
+			height: 25%
+		}
 
 		&__middle-section{
 			width: 48%;
@@ -199,28 +191,28 @@
 
 @media only screen and (max-width: 480px){
 
-.result{
-	&__header{
-			height: 10%;
+	.result{
+		&__header{
+				height: 10%;
 		}
 
-	&__title{
-		font-size: 4rem;
+		&__title{
+			font-size: 4rem;
 
-		> img{
-			width: 2rem;
-			height: 2rem;
-			top: 0.4rem;
+			> img{
+				width: 2rem;
+				height: 2rem;
+				top: 0.4rem;
+			}
 		}
-	}
 
-	&__content{
-		@include setFlex(column,center,center);
-		height: 90%;
-		width: 100%;
-	}
+		&__content{
+			@include setFlex(column,center,center);
+			height: 90%;
+			width: 100%;
+		}
 
-	&__left-section{
+		&__left-section{
 			display: none;
 		}
 
@@ -233,29 +225,27 @@
 			width:40%;
 		}
 
-
-
-	&__right-section{
+		&__right-section{
 			align-items: center;
 			width:100%;
 			height: 25%
 		}
 
-	&__other{
-		width:100%;
-		height: 25%;
-	}
+		&__other{
+			width:100%;
+			height: 25%;
+		}
 
-	&__items-wrap{
-		@include setFlex(row, space-around, center);
-		width:100%;
-	}
+		&__items-wrap{
+			@include setFlex(row, space-around, center);
+			width:100%;
+		}
 
-	&__item{
-		width: 8rem;
-		height: 8rem;
-		font-size: 0.8rem
+		&__item{
+			width: 8rem;
+			height: 8rem;
+			font-size: 0.8rem
+		}
 	}
-}
 }
 
