@@ -10,10 +10,6 @@
 		}
 	}
 
-	&__subtitle{
-
-	}
-
 	&__number-wrap{
 		@include setFlex(row, center, center);
 		width:8rem;
@@ -69,6 +65,11 @@
 	box-shadow: 1px 1px 3px lighten($c-minsk, 80);
 	box-sizing: border-box;
 
+	&:not(.normal-question__answer--wrong, .normal-question__answer--right, .dragable-question__dropable, .dragable-question__dragable):hover{
+		cursor: pointer;
+		background: linear-gradient(90deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%)
+	}
+
 	&--wrong{
 		@extend .normal-question__answer;
 		background: red;
@@ -97,6 +98,7 @@
 	}
 
 	&__dropables-wrap{
+		// @include setFlex(column, spac, center);
 		height: 100%;	
 		width:60%;
 	}
@@ -147,17 +149,10 @@
 		font-size: 2rem;
 		color:white;
 		text-align: center;
-	}
-}
 
-@media (hover: hover) and (pointer: fine) {
-	.normal-question__answer:not(.normal-question__answer--wrong, .normal-question__answer--right, .dragable-question__dropable, .dragable-question__dragable):hover{
-		cursor: pointer;
-		background: linear-gradient(90deg, $c-medium-red-violet 0%, $c-medium-red-violet 50%, $c-haiti 100%);
-	}
-
-	.dragable-question__dragable:hover{
-		transform: scale(1.2);
+		&:hover{
+			transform: scale(1.2);
+		}
 	}
 }
 
@@ -232,21 +227,26 @@
 		}
 
 		&__text{
+			margin: 1rem 0 1rem;
 			font-size: 1.5rem;
 		}
+	}
+
+	.normal-question{
 
 		&__answers-wrap{
 			@include setFlex(column, center, center);
 			height: 80%;
 			padding: 1rem 2rem;
 		}
-	}
 
-	.normal-question__answer{
+		&__answer{
 		width: 100%;
 		height: 15%;
 		min-height: 0;
+		margin: 0.7rem;
 	}
+}
 
 	.dragable-question{
 		&__answers-wrap{
